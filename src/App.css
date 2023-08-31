@@ -1,0 +1,12 @@
+.app-wrapper {
+  display: grid;
+
+  margin: 0 auto;
+
+  grid-template-rows: 88px 1fr;
+  grid-template-columns: 210px 1fr;
+
+  grid-template-areas:
+    "stb h"
+    "n p";
+}
