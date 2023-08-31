@@ -10,3 +10,8 @@
     "stb h"
     "n p";
 }
+
+.app-wrapper-content {
+  grid-area: p;
+  background-color: rgb(255, 226, 231);
+}
