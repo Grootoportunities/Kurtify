@@ -1,16 +1,16 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
+import Logo from "./components/Logo/Logo";
 import Navbar from "./components/Navbar/Navbar";
-import SidebarToggle from "./components/SidebarToggle/SidebarToggle";
 import Profile from "./components/Profile/Profile";
 
 const App = (props) => {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
-        <SidebarToggle />
         <Header />
+        <Logo />
         <Navbar />
         <div className="app-wrapper-content">
           <Routes>

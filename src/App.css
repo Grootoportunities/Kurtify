@@ -2,15 +2,15 @@
   display: grid;
   margin: 0 auto;
 
-  grid-template-columns: 205px 1fr;
-  grid-template-rows: 88px 1fr;
+  grid-template-rows: 89px 1fr;
+  grid-template-columns: 210px 1fr;
 
-  grid-template-areas:
-    "stb h"
-    "n c";
+  grid-template-areas: 
+  "l h"
+  "n c";
 }
 
 .app-wrapper-content{
-  grid-area: c;
-  background-color: blanchedalmond;
+    grid-area: c;
+    background-color: cornsilk;
 }

@@ -1,23 +1,10 @@
-import { NavLink } from "react-router-dom";
+import Items from "./Items/Items";
 import modules from "./Navbar.module.css";
 
-const Navbar = (props) => {\
-
-let itemsData = [
-  {path: "/profile"}
-]
-}
-
+const Navbar = (props) => {
   return (
     <nav className={modules.nav}>
-      <div className={modules.item}>
-        <NavLink
-          to="/profile"
-          className={({ isActive }) => (isActive ? modules.active : undefined)}
-        >
-          Profile
-        </NavLink>
-      </div>
+      <Items/>
     </nav>
   );
 };

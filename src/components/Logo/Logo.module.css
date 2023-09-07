@@ -1,0 +1,16 @@
+.logo {
+  grid-area: l;
+  background-color: darkblue;
+}
+
+.logoPic {
+  float: left;
+  width: 90px;
+}
+
+.logoName {
+  padding: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  color: rgb(206, 109, 255);
+}

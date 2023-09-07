@@ -1,0 +1,26 @@
+.buttonsBar{
+    float: right;
+    padding: 21px;
+}
+
+.suButton{
+    margin-right: 20px;
+    border-radius: 100px;
+    width:90px;
+    height:45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    background-color: rgb(129, 203, 239);
+    color: rgb(92, 48, 140);
+}
+
+.siButton{
+    margin-right: 20px;
+    border-radius: 100px;
+    width:90px;
+    height:45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    background-color: rgb(129, 203, 239);
+    color: rgb(92, 48, 140);
+}

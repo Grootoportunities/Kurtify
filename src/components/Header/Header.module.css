@@ -2,16 +2,3 @@
   grid-area: h;
   background-color: blue;
 }
-
-.loginButton {
-  margin: 25px;
-  background-color: rgb(255, 255, 255);
-  width: 100px;
-  height: 30px;
-  border-radius: 100px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: x-large;
-  color: rgb(0, 0, 0);
-  float: right;
-  padding-bottom: 30px;
-}
