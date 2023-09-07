@@ -1,16 +1,23 @@
-.ava{
-    float: left;
-    width:150px;
-    border-radius: 100px;
-    margin-top: 140px;
-    margin-left: 30px;
-    border: 3px solid cyan; /* Параметры рамки */
-    box-shadow: 0 0 20px cyan;
+.ava {
+  float: left;
+  width: 150px;
+  border-radius: 100px;
+  margin-top: 140px;
+  margin-left: 30px;
+  border: 3px solid cyan; /* Параметры рамки */
+  box-shadow: 0 0 20px cyan;
 }
 
-.profileName{
-    padding-top: 150px;
-    padding-left: 210px;
-    font-family:  Georgia, 'Times New Roman', Times, serif;
-    color: rgb(21, 5, 127);
+.profileName {
+  padding-top: 150px;
+  padding-left: 210px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(21, 5, 127);
+}
+
+.country {
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 210px;
+  margin-top: 20px;
 }
