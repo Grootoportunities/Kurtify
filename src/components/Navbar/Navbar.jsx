@@ -1,7 +1,13 @@
 import { NavLink } from "react-router-dom";
 import modules from "./Navbar.module.css";
 
-const Navbar = (props) => {
+const Navbar = (props) => {\
+
+let itemsData = [
+  {path: "/profile"}
+]
+}
+
   return (
     <nav className={modules.nav}>
       <div className={modules.item}>
