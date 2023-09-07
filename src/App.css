@@ -1,17 +1,16 @@
 .app-wrapper {
   display: grid;
-
   margin: 0 auto;
 
+  grid-template-columns: 205px 1fr;
   grid-template-rows: 88px 1fr;
-  grid-template-columns: 210px 1fr;
 
   grid-template-areas:
     "stb h"
-    "n p";
+    "n c";
 }
 
-.app-wrapper-content {
-  grid-area: p;
-  background-color: rgb(255, 226, 231);
+.app-wrapper-content{
+  grid-area: c;
+  background-color: blanchedalmond;
 }

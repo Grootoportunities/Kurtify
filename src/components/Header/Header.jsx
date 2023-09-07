@@ -1,12 +1,11 @@
-import modules from "./Header.module.css";
-import LoginButton from "./LoginButton/LoginButton";
+import modules from './Header.module.css'
 
 const Header = (props) => {
-  return (
-    <header className={modules.header}>
-      <LoginButton />
-    </header>
-  );
-};
+    return(
+        <header className = {modules.header}> 
+            <button className = {modules.loginButton}>Login</button>
+        </header>
+    )
+}
 
 export default Header;

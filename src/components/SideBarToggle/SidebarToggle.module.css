@@ -1,16 +1,8 @@
-.sidebartoggle {
-  grid-area: stb;
-  background-color: darkmagenta;
+.sidebarToggle{
+    grid-area: stb;
+    background-color: darkblue;
 }
 
-.logo{
-  width: 90px;
-  float: left;
-}
-
-.companyname{
-  margin-top: 28px;
-  color: rgb(227, 200, 252);
-  font-size: xx-large;
-  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.logoPic{
+    width: 90px;
 }

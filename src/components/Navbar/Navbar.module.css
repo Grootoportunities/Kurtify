@@ -1,4 +1,8 @@
 .nav{
     grid-area: n;
-    background-color: rgb(231, 0, 231);
+    background-color: lightblue;
+}
+
+.active{
+    color: gold;
 }
