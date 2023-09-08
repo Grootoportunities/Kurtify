@@ -1,0 +1,13 @@
+.postMenu {
+  border: 30px solid transparent;
+  border-image: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%) 20% / 1 / 0
+    stretch;
+  margin: 20px;
+  font-size: xx-large;
+  padding-left: 525px;
+  font-family: cursive;
+}
+
+.p {
+  text-align: center;
+}

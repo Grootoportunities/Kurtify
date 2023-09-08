@@ -1,8 +1,9 @@
 .ava {
   float: left;
   width: 150px;
-  border-radius: 100px;
-  margin-top: 140px;
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 170px;
   margin-left: 30px;
   border: 3px solid cyan; /* Параметры рамки */
   box-shadow: 0 0 20px cyan;
