@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Logo from "./components/Logo/Logo";
 import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
+import Dialogs from "./components/Dialogs/Dialogs";
 
 const App = (props) => {
   return (
@@ -15,6 +16,7 @@ const App = (props) => {
         <div className="app-wrapper-content">
           <Routes>
             <Route path="/profile" element={<Profile />} />
+            <Route path="/messages" element={<Dialogs />} />
           </Routes>
         </div>
       </div>

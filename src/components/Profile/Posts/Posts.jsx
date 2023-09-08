@@ -6,6 +6,16 @@ const Post = (props) => {
       <img className={modules.ava} src={props.ava} />
       <div className={modules.name}>{props.name}</div>
       <div className={modules.postInfo}>{props.data}</div>
+      <div className={modules.buttons}>
+        <button className={modules.likeButton}>
+          <img className={modules.likePic} src={props.like}></img>
+        </button>
+        <span className={modules.likesCounter}>{props.likeCounter}</span>
+        <button className={modules.repostButton}>
+          <img className={modules.repostPic} src={props.repost}></img>
+        </button>
+        <span className={modules.repostsCounter}>{props.repostCounter}</span>
+      </div>
     </div>
   );
 };
@@ -28,38 +38,41 @@ const Posts = (props) => {
     },
   ];
 
+  let buttonIcons = [
+    {
+      like: "https://cdn.pixabay.com/photo/2020/09/30/07/48/heart-5614865_1280.png",
+    },
+    { repost: "https://www.svgrepo.com/show/334212/repost.svg" },
+  ];
+
   return (
     <div className={modules.posts}>
       <Post
         ava={avaData[0].ava}
         name={namesData[0].name}
         data={postsData[0].data}
+        like={buttonIcons[0].like}
+        repost={buttonIcons[1].repost}
+        likeCounter="9"
+        repostCounter="2"
       />
-      <div className={modules.buttons}>
-        <button className={modules.likeButton}>
-          <img
-            className={modules.likePic}
-            src="https://cdn.pixabay.com/photo/2020/09/30/07/48/heart-5614865_1280.png"
-          ></img>
-        </button>
-        <span className={modules.likesCounter}>15</span>
-        <button className={modules.repostButton}>
-          <img
-            className={modules.repostPic}
-            src="https://www.svgrepo.com/show/334212/repost.svg"
-          ></img>
-        </button>
-        <span className={modules.repostsCounter}>9</span>
-      </div>
       <Post
         ava={avaData[1].ava}
         name={namesData[1].name}
         data={postsData[2].data}
+        like={buttonIcons[0].like}
+        repost={buttonIcons[1].repost}
+        likeCounter="20"
+        repostCounter="19"
       />
       <Post
         ava={avaData[0].ava}
         name={namesData[0].name}
         data={postsData[1].data}
+        like={buttonIcons[0].like}
+        repost={buttonIcons[1].repost}
+        likeCounter="15412515135"
+        repostCounter="2412"
       />
     </div>
   );

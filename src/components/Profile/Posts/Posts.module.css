@@ -13,7 +13,7 @@
 }
 
 .posts {
-  margin: 30px;
+  margin: 40px;
 }
 
 .postInfo {
@@ -51,6 +51,7 @@
 
 .repostButton {
   background-color: rgb(58, 0, 248);
+  margin-left: 10px;
 }
 
 .repostsCounter {

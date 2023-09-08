@@ -4,7 +4,7 @@
 
 .item a {
   float: right;
-  font-size: xx-large;
+  font-size: x-large;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-decoration: none;
   padding-top: 25px;
@@ -14,5 +14,9 @@
 .itemPic {
   margin: 10px;
   float: left;
-  width: 70px;
+  width: 60px;
+}
+
+.item{
+  float: left;
 }

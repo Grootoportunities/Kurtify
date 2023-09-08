@@ -23,6 +23,12 @@ const Items = (props) => {
       path: "/profile",
       name: "Profile",
     },
+    {
+      id: 2,
+      link: "https://www.svgrepo.com/download/70038/message.svg",
+      path: "/messages",
+      name: "Message",
+    },
   ];
 
   return (
@@ -31,6 +37,11 @@ const Items = (props) => {
         link={itemsData[0].link}
         path={itemsData[0].path}
         name={itemsData[0].name}
+      />
+      <ItemLinks
+        link={itemsData[1].link}
+        path={itemsData[1].path}
+        name={itemsData[1].name}
       />
     </div>
   );
