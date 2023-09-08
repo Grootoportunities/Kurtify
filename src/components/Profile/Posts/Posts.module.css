@@ -5,25 +5,54 @@
   float: left;
 }
 
-.name{
-    margin-left: 95px; 
-    font-size: x-large;
-    color:blueviolet;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.name {
+  margin-left: 95px;
+  font-size: x-large;
+  color: blueviolet;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.posts{
-margin: 30px;
+.posts {
+  margin: 30px;
 }
 
-.postInfo{
-    margin-left: 95px;
-    font-size: xx-large;
-    color: rgb(102, 38, 161);
-    font-family: serif;
-    margin-top: 10px;
+.postInfo {
+  margin-left: 95px;
+  font-size: xx-large;
+  color: rgb(102, 38, 161);
+  font-family: serif;
+  margin-top: 10px;
 }
 
-.post{
-    margin-top: 20px;
+.post {
+  margin-top: 20px;
+}
+
+.likePic {
+  width: 15px;
+}
+
+.likeButton {
+  background-color: red;
+  float: left;
+}
+
+.likesCounter {
+  margin-left: 5px;
+}
+
+.buttons {
+  margin: 7px;
+}
+
+.repostPic {
+  width: 15px;
+}
+
+.repostButton {
+  background-color: rgb(58, 0, 248);
+}
+
+.repostsCounter {
+  margin-left: 5px;
 }

@@ -35,6 +35,22 @@ const Posts = (props) => {
         name={namesData[0].name}
         data={postsData[0].data}
       />
+      <div className={modules.buttons}>
+        <button className={modules.likeButton}>
+          <img
+            className={modules.likePic}
+            src="https://cdn.pixabay.com/photo/2020/09/30/07/48/heart-5614865_1280.png"
+          ></img>
+        </button>
+        <span className={modules.likesCounter}>15</span>
+        <button className={modules.repostButton}>
+          <img
+            className={modules.repostPic}
+            src="https://www.svgrepo.com/show/334212/repost.svg"
+          ></img>
+        </button>
+        <span className={modules.repostsCounter}>9</span>
+      </div>
       <Post
         ava={avaData[1].ava}
         name={namesData[1].name}
